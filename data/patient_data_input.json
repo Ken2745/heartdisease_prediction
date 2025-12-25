@@ -1,0 +1,15 @@
+{
+  "age": 25,
+  "sex": 0,
+  "cp": 1,
+  "trtbps": 125,
+  "chol": 170,
+  "fbs": 0,
+  "restecg": 0,
+  "thalachh": 135,
+  "exng": 0,
+  "oldpeak": 0.21,
+  "slp": 0,
+  "caa": 2,
+  "thall": 1
+}
