@@ -7,19 +7,19 @@ Built using FastAPI, scikit-learn, and Jinja2, with an optional Dockersetup for 
 
 ## Features
 
-*  **Machine Learning Model**
+* **Machine Learning Model**
 
   * Support Vector Machine (SVM)
   * Trained on the UCI Heart Disease dataset
   * Standardized features with `StandardScaler`
 
-*  **FastAPI Backend**
+* **FastAPI Backend**
 
   * JSON-based prediction API
   * Automatic request validation using Pydantic
   * Health check endpoint
 
-*  **Frontend UI**
+* **Frontend UI**
 
   * Bootstrap-based form
   * Sends JSON requests via JavaScript
@@ -65,8 +65,7 @@ uvicorn app:app --reload
 
 ### 3. Open in browser
 
-```
-http://127.0.0.1:8000
+```http://127.0.0.1:8000
 ```
 
 ---
@@ -74,14 +73,16 @@ http://127.0.0.1:8000
 ## API Usage
 
 ### Open in browser
+
+```http://127.0.0.1:8000/docs
 ```
-http://127.0.0.1:8000/docs
-```
+
 ### **POST /predict**
 
 **Request (JSON):**
 
 (Paste your json input)
+
 ```json
 {
   "age": 45,
@@ -129,13 +130,12 @@ docker run -p 8000:8000 heartdisease-api
 
 Then open:
 
-```
-http://localhost:8000
+```http://localhost:8000
 ```
 
 ---
 
-##  Health Check
+## Health Check
 
 ```http
 GET /health
@@ -158,6 +158,3 @@ Response:
 * **Frontend:** HTML, Bootstrap, JavaScript
 * **Deployment:** Docker
 * **Data:** UCI Heart Disease Dataset
-
-
-
