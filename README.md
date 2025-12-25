@@ -1,6 +1,6 @@
 # Heart Disease Prediction API
 
-A machine learning–powered web application that predicts the likelihood of heart disease based on patient health metrics.
+A machine learning powered web application that predicts the likelihood of heart disease based on patient health metrics.
 Built using FastAPI, scikit-learn, and Jinja2, with an optional Dockersetup for deployment.
 
 ---
